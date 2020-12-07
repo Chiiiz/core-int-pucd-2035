@@ -4,17 +4,23 @@
 html {
   font-size: 1rem;
   font-family: 'Libre Baskerville', serif;
-  background-color: #FBDEB4;
+  background-color: #292C2F;
 }
 
 body {
   padding:5rem 0;
-  color:#484848;
+  color:#767676;
 }
 
 a {
   text-decoration: underline;
-  color: #FB8A68;
+  color: #F5C3AB;
+  font-size: 1.1rem;
+}
+
+b {
+  text-decoration: underline;
+  color: #B2B2B2;
   font-size: 1.1rem;
 }
 
@@ -41,6 +47,7 @@ main {
 .statement {
   grid-column: 3;
   grid-row: 2;
+  font-size: 0.5rem;
 }
 
 .image {
@@ -53,6 +60,11 @@ main {
   grid-row: 2;
 }
 
+.Now {
+  grid-column:1;
+  grid-row: 3;
+}
+
 .footer {
   grid-column:2;
   grid-row: 3;
@@ -60,6 +72,7 @@ main {
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   text-align: center;
+  color: #B2B2B2;
 
 }
 
@@ -85,7 +98,7 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-size:2rem;
   font-weight:800;
-  color: #484848;
+  color: #989898;
 }
 h2 {
   font-size:2rem;
@@ -99,6 +112,11 @@ h4 {
   font-size:1rem;
 }
 
+h5 {
+  font-size:1.2rem;
+  font-weight:300;
+  color: #B2B2B2;
+}
 
 li {
   font-size: 1.25rem;
