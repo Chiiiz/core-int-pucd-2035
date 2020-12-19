@@ -1,0 +1,70 @@
+
+
+
+html {
+  font-size: 1rem;
+  font-family: 'Libre Baskerville', serif;
+  background-color: #DDDDDD;
+}
+
+body {
+  padding:5rem 0;
+  color:#444444;
+}
+
+a {
+  text-decoration: underline;
+  color: #F5A680;
+  font-size: 1rem;
+}
+
+
+main{
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1fr;
+  grid-template-rows: 50px 30px 200px 30px 200px 50px 1fr;
+  gap: 10px 10px;
+  margin-left: 40px
+}
+
+
+h1, h2, h3, h4, h5,a {
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom:1rem;
+}
+
+h1 {
+  font-size:3rem;
+  font-weight:800;
+  grid-row:1;
+  grid-column: 1;
+}
+h2 {
+  font-size:2rem;
+  font-weight:500;
+  grid-row:2;
+  grid-column: 1;
+}
+
+
+.expressive{
+  font-size:2rem;
+  font-weight:500;
+  grid-row:4;
+  grid-column: 1;
+}
+
+h3{
+  font-size:2rem;
+  font-weight:500;
+  grid-row:4;
+  grid-column: 1;
+}
+
+.Javascript{
+  font-size:3rem;
+  font-weight:800;
+  grid-row:6;
+  grid-column: 1;
+}
+
